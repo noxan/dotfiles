@@ -10,6 +10,7 @@ set hlsearch
 set number
 set numberwidth=3
 set ruler
+set cursorline
 set title
 
 set t_Co=256
