@@ -8,6 +8,7 @@ set numberwidth=3
 set ruler
 
 set t_Co=256
+color wombat256i
 
 set smartindent
 set autoindent
