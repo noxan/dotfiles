@@ -36,3 +36,6 @@ noremap   <Right>  <NOP>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+"pydiction plugin
+let g:pydiction_location = '/home/noxan/.vim/vimfiles/ftplugin/pydiction/complete-dict'
+
