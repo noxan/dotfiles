@@ -2,6 +2,7 @@
 set encoding=utf8
 
 filetype plugin on
+filetype indent on
 
 syntax on
 
