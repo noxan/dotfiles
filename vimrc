@@ -1,4 +1,7 @@
 
+syntax on
+
+
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
 inoremap  <Left>   <NOP>
