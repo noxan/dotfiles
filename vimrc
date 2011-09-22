@@ -7,6 +7,8 @@ set number
 set numberwidth=3
 set ruler
 
+set t_Co=256
+
 set smartindent
 set autoindent
 
