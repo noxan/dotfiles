@@ -1,6 +1,8 @@
 
 set encoding=utf8
 
+filetype plugin on
+
 syntax on
 
 set number
