@@ -1,4 +1,6 @@
 
+set encoding=utf8
+
 syntax on
 
 set number
