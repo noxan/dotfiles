@@ -7,6 +7,11 @@ set number
 set numberwidth=3
 set ruler
 
+set expandtab
+set shiftwidth=4
+set tabstop=4
+set smarttab
+
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
 inoremap  <Left>   <NOP>
