@@ -5,6 +5,7 @@ filetype plugin on
 filetype indent on
 
 syntax on
+set hlsearch
 
 set number
 set numberwidth=3
