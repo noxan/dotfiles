@@ -1,6 +1,9 @@
 
 syntax on
 
+set number
+set numberwidth=3
+set ruler
 
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
