@@ -12,8 +12,8 @@ dirlist = os.listdir(srcpath)
 for f in dirlist:
     if f != '.git' and f != '.gitignore' and f != 'install.py':
         if os.path.isdir(f):
-            os.system("cp "+os.path.join(srcpath, f)+" "+os.path.join(dstpath, f)+" -r")
+            os.system("cp "+os.path.join(srcpath, f)+" "+os.path.join(dstpath, "."+f)+" -r")
             print "Copying directory "+f+" ..."
         else:
-            os.system("cp "+os.path.join(srcpath, f)+" "+os.path.join(dstpath, f))
+            os.system("cp "+os.path.join(srcpath, f)+" "+os.path.join(dstpath, "."+f))
             print "Copying file "+f+" ..."
