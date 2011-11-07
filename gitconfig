@@ -1,0 +1,6 @@
+[color]
+    status = auto
+    diff = auto
+    merge = auto
+    log = auto
+    commit = auto
