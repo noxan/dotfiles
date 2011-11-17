@@ -14,7 +14,7 @@ set cursorline
 set title
 
 set t_Co=256
-color wombat256i
+color molokai
 
 set smartindent
 set autoindent
