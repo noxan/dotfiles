@@ -36,6 +36,12 @@ noremap   <Right>  <NOP>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+"gvim
+:set guioptions-=m  "remove menu bar
+:set guioptions-=T  "remove toolbar
+:set guioptions-=r  "remove right-hand scroll bar
+:set guifont=UbuntuMono
+
 "pydiction plugin
 let g:pydiction_location = '/home/noxan/.vim/vimfiles/ftplugin/pydiction/complete-dict'
 
