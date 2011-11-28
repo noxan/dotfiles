@@ -4,6 +4,11 @@
     merge = auto
     log = auto
     commit = auto
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
 [user]
     name = noxan
     email = noxan@redmoonstudios.de
