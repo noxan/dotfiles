@@ -7,6 +7,8 @@
 " GUI colors with the xterm palette is from desert256.vim by Henry So Jr.
 " Minor changes by echofish (http://echofish.org)
 
+hi clear
+
 set background=dark
 
 if version > 580
