@@ -3,3 +3,5 @@ xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
 
+Xcursor*theme: Neutral
+
