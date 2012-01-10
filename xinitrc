@@ -1,2 +1,2 @@
-xinit /usr/bin/i3 --force-xinerama
+exec /usr/bin/i3 --force-xinerama
 
