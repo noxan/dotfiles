@@ -9,6 +9,7 @@
     co = checkout
     ci = commit
     cim = commit -m
+    di = diff
     br = branch
     pl = pull
     ps = push
