@@ -251,7 +251,7 @@ call <SID>X("LineNr",		"FFFFFF",	"242424",	"none")
 call <SID>X("Folded",		"a0a8b0",	"404048",	"none")
 call <SID>X("Title",		"f6f3e8",	"",			"bold")
 call <SID>X("VertSplit",	"444444",	"444444",	"none")
-call <SID>X("StatusLine",	"f6f3e8",	"444444",	"italic")
+call <SID>X("StatusLine",	"f6f3e8",	"444444",	"none")
 call <SID>X("StatusLineNC",	"857b6f",	"444444",	"none")
 			"Scrollbar
 			"Tooltip
@@ -272,8 +272,8 @@ call <SID>X("WarningMsg",	"ff0000",	"",			"")
 " syntax highlighting
 call <SID>X("Number",		"e5786d",	"",			"none")
 call <SID>X("Constant",		"e5786d",	"",			"none")
-call <SID>X("String",		"95e454",	"",			"italic")
-call <SID>X("Comment",		"c0bc6c",	"",			"italic")
+call <SID>X("String",		"95e454",	"",			"none")
+call <SID>X("Comment",		"c0bc6c",	"",			"none")
 call <SID>X("Identifier",	"caeb82",	"",			"none")
 call <SID>X("Keyword",		"87afff",	"",			"none")
 call <SID>X("Statement",	"87afff",	"",			"none")
@@ -281,7 +281,7 @@ call <SID>X("Function",		"caeb82",	"",			"none")
 call <SID>X("PreProc",		"e5786d",	"",			"none")
 call <SID>X("Type",			"caeb82",	"",			"none")
 call <SID>X("Special",		"ffdead",	"",			"none")
-call <SID>X("Todo",			"857b6f",	"",			"italic")
+call <SID>X("Todo",			"857b6f",	"",			"none")
 			"Underlined
 			"Error
 			"Ignore
