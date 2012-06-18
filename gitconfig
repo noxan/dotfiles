@@ -5,6 +5,7 @@
     log = auto
     commit = auto
 [alias]
+    ap = add -p
     st = status
     co = checkout
     ci = commit
