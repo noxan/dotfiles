@@ -25,6 +25,7 @@ set tabstop=4
 set softtabstop=4
 set smarttab
 
+"disable normal arrow-keys
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
 inoremap  <Left>   <NOP>
