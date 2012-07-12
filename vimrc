@@ -27,6 +27,11 @@ set smarttab
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+"completion
+set wildmenu
+set wildignore+=*.pyc,*.fcgi,*.sock,*.db,*.swp,*.swo,*.meta
+set wildmode=list:longest
+
 "folding
 set foldmethod=indent
 set fillchars=vert:\|,fold:\ ,diff:-
