@@ -78,7 +78,3 @@ autocmd! bufwritepost vimrc source ~/.vimrc
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
 :set guifont=UbuntuMono
-
-"pydiction plugin
-let g:pydiction_location = '/home/noxan/.vim/vimfiles/ftplugin/pydiction/complete-dict'
-
