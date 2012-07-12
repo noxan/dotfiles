@@ -25,6 +25,8 @@ set tabstop=4
 set softtabstop=4
 set smarttab
 
+autocmd BufWritePre * :%s/\s\+$//e
+
 "disable normal arrow-keys
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
@@ -35,7 +37,6 @@ noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
-autocmd BufWritePre * :%s/\s\+$//e
 
 "gvim
 :set guioptions-=m  "remove menu bar
