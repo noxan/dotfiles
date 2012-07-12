@@ -27,6 +27,21 @@ set smarttab
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+"folding
+set foldmethod=indent
+set fillchars=vert:\|,fold:\ ,diff:-
+
+set foldlevel=3
+set foldnestmax=3
+set foldcolumn=2
+
+"disable dangerous fold commands
+noremap zf <Nop>
+noremap zF <Nop>
+noremap zd <Nop>
+noremap zD <Nop>
+noremap zE <Nop>
+
 "disable normal arrow-keys
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
