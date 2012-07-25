@@ -79,7 +79,7 @@ autocmd! bufwritepost vimrc source ~/.vimrc
 :set guioptions-=m  "remove menu bar
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
-:set guifont=UbuntuMono
+:set guifont=UbuntuMono\ 12
 
 "vala
 autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
