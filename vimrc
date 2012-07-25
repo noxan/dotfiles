@@ -1,5 +1,6 @@
 
 set encoding=utf8
+set fileformat=unix
 
 filetype plugin on
 filetype indent on
