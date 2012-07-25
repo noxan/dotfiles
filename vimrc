@@ -75,6 +75,8 @@ noremap   <Right>  <NOP>
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vimrc
 
+nmap <F4> :w<CR>:make<CR>:cc<CR>
+
 "gvim
 :set guioptions-=m  "remove menu bar
 :set guioptions-=T  "remove toolbar
