@@ -5,6 +5,7 @@ set fileformat=unix
 filetype plugin on
 filetype indent on
 
+let python_highlight_all=1
 syntax on
 set hlsearch
 
