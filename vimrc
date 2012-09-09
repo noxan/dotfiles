@@ -8,6 +8,8 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+Bundle 'klen/rope-vim'
+
 set encoding=utf8
 set fileformat=unix
 
