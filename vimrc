@@ -10,6 +10,8 @@ Bundle 'gmarik/vundle'
 
 Bundle 'klen/rope-vim'
 
+Bundle 'gerardo/vim-django-support'
+
 set encoding=utf8
 set fileformat=unix
 
