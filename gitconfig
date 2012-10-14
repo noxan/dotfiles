@@ -10,6 +10,8 @@
     co = checkout
     ci = commit
     cim = commit -m
+    cip = commit --dry-run -v
+    cia = commit --amend
     di = diff
     br = branch
     pl = pull
