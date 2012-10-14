@@ -22,4 +22,4 @@
     unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
 [user]
     name = noxan
-    email = noxan@redmoonstudios.de
+    email = noxan@byteweaver.net
