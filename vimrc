@@ -42,6 +42,8 @@ set smarttab
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+nmap <F5> :make %<cr>
+
 if has('statusline')
     set laststatus=2
     " Broken down into easily includeable segments
