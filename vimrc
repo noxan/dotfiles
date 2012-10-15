@@ -11,6 +11,8 @@ Bundle 'klen/rope-vim'
 
 Bundle 'gerardo/vim-django-support'
 
+Bundle 'git://github.com/kchmck/vim-coffee-script.git'
+
 set encoding=utf8
 set fileformat=unix
 
