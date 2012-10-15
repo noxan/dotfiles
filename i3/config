@@ -152,3 +152,5 @@ client.focused          #535353 #7f878a #ffffff #7e7e7e
 client.focused_inactive #333333 #5f676a #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
+
+exec display -backdrop -window root /usr/share/wallpaper/darkness-wallpaper-1280x800.png
