@@ -1,11 +1,10 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
+set nocompatible               " be iMproved, required!
+filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" let Vundle manage Vundle
-" required!
+" let Vundle manage Vundle, required!
 Bundle 'gmarik/vundle'
 
 Bundle 'klen/rope-vim'
