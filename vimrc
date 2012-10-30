@@ -47,8 +47,6 @@ set smarttab
 
 autocmd BufWritePre * :%s/\s\+$//e
 
-nmap <F5> :make %<cr>
-
 if has('statusline')
     set laststatus=2
     " Broken down into easily includeable segments
@@ -95,6 +93,8 @@ noremap   <Right>  <NOP>
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vimrc
 
+" keybindings
+nmap <F3> :make %<cr>
 nmap <F4> :w<CR>:make<CR>:cc<CR>
 
 "gvim
