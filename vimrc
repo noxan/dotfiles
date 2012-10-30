@@ -10,6 +10,9 @@ Bundle 'gmarik/vundle'
 Bundle 'klen/rope-vim'
 Bundle 'kevinw/pyflakes-vim'
 
+" git
+Bundle 'tpope/vim-fugitive'
+
 Bundle 'gerardo/vim-django-support'
 
 Bundle 'git://github.com/kchmck/vim-coffee-script.git'
