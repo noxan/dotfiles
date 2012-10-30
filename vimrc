@@ -7,15 +7,18 @@ call vundle#rc()
 " let Vundle manage Vundle, required!
 Bundle 'gmarik/vundle'
 
+" python
 Bundle 'klen/rope-vim'
 Bundle 'kevinw/pyflakes-vim'
+
+" python-django
+Bundle 'gerardo/vim-django-support'
 
 " git
 Bundle 'tpope/vim-fugitive'
 
-Bundle 'gerardo/vim-django-support'
-
-Bundle 'git://github.com/kchmck/vim-coffee-script.git'
+" coffee-script
+Bundle 'kchmck/vim-coffee-script'
 
 set encoding=utf8
 set fileformat=unix
