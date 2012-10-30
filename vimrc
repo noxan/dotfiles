@@ -8,6 +8,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 Bundle 'klen/rope-vim'
+Bundle 'kevinw/pyflakes-vim'
 
 Bundle 'gerardo/vim-django-support'
 
