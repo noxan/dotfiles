@@ -104,6 +104,8 @@ autocmd! bufwritepost vimrc source ~/.vimrc
 nmap <F3> :make %<cr>
 nmap <F4> :w<CR>:make<CR>:cc<CR>
 
+let g:pep8_map='<F5>'
+
 " nerdtree
 map <F6> :NERDTreeToggle<CR>
 let NERDTreeIgnore = ['\.pyc$']
