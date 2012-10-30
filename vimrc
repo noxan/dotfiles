@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 " python
 Bundle 'klen/rope-vim'
 Bundle 'kevinw/pyflakes-vim'
+Bundle 'vim-scripts/pep8'
 
 " python-django
 Bundle 'gerardo/vim-django-support'
