@@ -104,6 +104,10 @@ autocmd! bufwritepost vimrc source ~/.vimrc
 nmap <F3> :make %<cr>
 nmap <F4> :w<CR>:make<CR>:cc<CR>
 
+" nerdtree
+map <F6> :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
+
 "gvim
 :set guioptions-=m  "remove menu bar
 :set guioptions-=T  "remove toolbar
