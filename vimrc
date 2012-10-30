@@ -101,6 +101,8 @@ noremap   <Right>  <NOP>
 autocmd! bufwritepost vimrc source ~/.vimrc
 
 " keybindings
+let mapleader = ","
+
 nmap <F3> :make %<cr>
 nmap <F4> :w<CR>:make<CR>:cc<CR>
 
