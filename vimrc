@@ -7,6 +7,9 @@ call vundle#rc()
 " let Vundle manage Vundle, required!
 Bundle 'gmarik/vundle'
 
+" general
+Bundle 'scrooloose/nerdtree'
+
 " python
 Bundle 'klen/rope-vim'
 Bundle 'kevinw/pyflakes-vim'
