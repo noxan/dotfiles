@@ -10,7 +10,7 @@ print "Installing dotfiles from '"+str(srcpath)+"' to '"+str(dstpath)+"':"
 
 dirlist = os.listdir(srcpath)
 for f in dirlist:
-    if f != '.git' and f != '.gitignore' and f != 'install.py':
+    if f != '.git' and f != '.gitignore' and f != 'install.py' and f != '.gitmodules':
         srcfile = os.path.join(srcpath, f)
         dstfile = os.path.join(dstpath, "."+f)
         print "> "+f
