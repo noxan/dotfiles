@@ -16,3 +16,6 @@
 [submodule "vim/bundle/vim-coffee-script"]
 	path = vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script
+[submodule "vim/bundle/vim-django-support"]
+	path = vim/bundle/vim-django-support
+	url = git://github.com/gerardo/vim-django-support
