@@ -19,3 +19,6 @@
 [submodule "vim/bundle/vim-django-support"]
 	path = vim/bundle/vim-django-support
 	url = git://github.com/gerardo/vim-django-support
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive
