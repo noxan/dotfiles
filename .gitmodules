@@ -4,3 +4,6 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/pep8"]
+	path = vim/bundle/pep8
+	url = git://github.com/vim-scripts/pep8
