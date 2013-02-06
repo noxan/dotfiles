@@ -116,7 +116,7 @@ let NERDTreeIgnore = ['\.pyc$']
 :set guioptions-=m  "remove menu bar
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
-:set guifont=UbuntuMono\ 12
+:set guifont=Droid\ Sans\ Mono\ 10
 
 " python bad whitespaces
 highlight BadWhitespace ctermbg=red
