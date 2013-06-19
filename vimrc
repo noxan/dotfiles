@@ -46,11 +46,17 @@ color jellybeans
 set smartindent
 set autoindent
 
+" tabs
 set expandtab
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 set smarttab
+
+" python tabs
+autocmd FileType python set shiftwidth=4
+autocmd FileType python set tabstop=4
+autocmd FileType python set softtabstop=4
 
 autocmd BufWritePre * :%s/\s\+$//e
 
