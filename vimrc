@@ -24,6 +24,9 @@ Bundle 'tpope/vim-fugitive'
 " coffee-script
 Bundle 'kchmck/vim-coffee-script'
 
+" nodejs
+Bundle 'digitaltoad/vim-jade'
+
 set encoding=utf8
 set fileformat=unix
 
