@@ -57,9 +57,9 @@ set softtabstop=2
 set smarttab
 
 " python tabs
-autocmd FileType python set shiftwidth=4
-autocmd FileType python set tabstop=4
-autocmd FileType python set softtabstop=4
+autocmd FileType python setl shiftwidth=4 tabstop=4 softtabstop=4 et
+" vala elementary os indention
+autocmd FileType vala setl shiftwidth=4 tabstop=4 softtabstop=4 et
 
 autocmd BufWritePre * :%s/\s\+$//e
 
