@@ -1,4 +1,5 @@
-xterm*font: -misc-fixed-medium-r-semicondensed--12-110-75-75-C-60-iso10646-1
+XTerm*faceName: Droid Sans Mono
+XTerm*faceSize: 10
 xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
