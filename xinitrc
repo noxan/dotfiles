@@ -4,7 +4,7 @@ cd ~
 
 xrdb -merge .Xresources
 
-setxkbmap de
+setxkbmap us
 
 exec ssh-agent /usr/bin/i3 --force-xinerama
 
