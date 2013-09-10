@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd ~
+
 xrdb -merge .Xresources
 
 setxkbmap de
