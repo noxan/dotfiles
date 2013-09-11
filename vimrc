@@ -44,7 +44,7 @@ set cursorline
 set title
 
 set t_Co=256
-color jellybeans
+color wombat256i
 
 set smartindent
 set autoindent
