@@ -4,5 +4,7 @@ xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
 
+xterm*termName: xterm-256color
+
 Xcursor*theme: Neutral
 
