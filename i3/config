@@ -142,7 +142,7 @@ bar {
         status_command i3status
 }
 
-new_window normal
+new_window 1pixel
 
 # class                 border  bg      text    indicator
 client.focused          #535353 #7f878a #ffffff #7e7e7e
