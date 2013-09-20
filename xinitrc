@@ -3,6 +3,7 @@
 cd ~
 
 xrdb -merge .Xresources
+xmodmap ~/.Xmodmap
 
 setxkbmap us
 
