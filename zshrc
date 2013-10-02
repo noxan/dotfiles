@@ -173,3 +173,6 @@ case $TERM in
 		RPROMPT='%(1j.%{[32m%}[%j]%{[m%}.)%(0?..%{[1;31;47m%}[%?]%{[m%})%2v'
 	;;
 esac
+
+export LANG="en_US.utf8"
+export LC_ALL="en_US.utf8"
