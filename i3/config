@@ -158,3 +158,6 @@ client.urgent           #2f343a #900000 #ffffff #900000
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym XF86AudioMute        exec amixer set Master toggle
+
+# i3lock
+bindsym $mod+Shift+x exec i3lock -c 000000
