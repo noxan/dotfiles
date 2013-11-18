@@ -25,3 +25,6 @@
 [submodule "vim/bundle/vim-jade"]
 	path = vim/bundle/vim-jade
 	url = git@github.com:digitaltoad/vim-jade
+[submodule "vim/bundle/emmet-vim"]
+	path = vim/bundle/emmet-vim
+	url = git@github.com:mattn/emmet-vim

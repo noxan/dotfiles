@@ -27,6 +27,9 @@ Bundle 'kchmck/vim-coffee-script'
 " nodejs
 Bundle 'digitaltoad/vim-jade'
 
+" emmet
+Bundle 'mattn/emmet-vim'
+
 set encoding=utf8
 set fileformat=unix
 
