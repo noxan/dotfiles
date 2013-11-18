@@ -176,3 +176,5 @@ esac
 
 export LANG="en_US.utf8"
 export LC_ALL="en_US.utf8"
+
+export PATH="$PATH:/home/noxan/.gem/ruby/2.0.0/bin"
