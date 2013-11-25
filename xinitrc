@@ -8,4 +8,3 @@ xmodmap ~/.Xmodmap
 setxkbmap us
 
 exec ssh-agent /usr/bin/i3
-
