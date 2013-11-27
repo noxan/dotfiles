@@ -1,10 +1,15 @@
-XTerm*faceName: Droid Sans Mono
-XTerm*faceSize: 10
+xterm*faceName: CosmicSansNeueMono:antialias=true
+xterm*faceSize: 11
 xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
 
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
 xterm*termName: xterm-256color
 
 Xcursor*theme: Neutral
-
