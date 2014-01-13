@@ -1,5 +1,5 @@
 xterm*faceName: CosmicSansNeueMono:antialias=true
-xterm*faceSize: 10.5
+xterm*faceSize: 11
 xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
