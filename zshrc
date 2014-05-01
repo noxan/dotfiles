@@ -19,6 +19,9 @@ eval $( dircolors -b $HOME/.dir_colors )
 #export LS_COLORS='di=01;36:ow=01;36;47:ln=01;33'
 alias ls='ls --color=auto'
 
+#git alias
+alias g='git'
+
 #general shell options
 setopt extended_glob longlistjobs completeinword hashlistall bash_rematch
 unsetopt autocd beep notify
