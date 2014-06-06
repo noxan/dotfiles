@@ -26,6 +26,7 @@ Bundle 'kchmck/vim-coffee-script'
 
 " nodejs
 Bundle 'digitaltoad/vim-jade'
+Bundle 'wavded/vim-stylus'
 
 " emmet
 Bundle 'mattn/emmet-vim'
