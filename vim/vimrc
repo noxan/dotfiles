@@ -31,6 +31,9 @@ Bundle 'wavded/vim-stylus'
 " emmet
 Bundle 'mattn/emmet-vim'
 
+" java
+Bundle 'tfnico/vim-gradle'
+
 set encoding=utf8
 set fileformat=unix
 
