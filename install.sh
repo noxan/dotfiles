@@ -9,10 +9,8 @@ fi
 
 git clone git@github.com:noxan/dotfiles $DOTFILES
 
-cd $DOTFILES
-
-git submodule init
-git submodule update
+(cd $DOTFILES && git submodule init)
+(cd $DOTFILES && git submodule update)
 
 # vim
 ln -s "$DOTFILES/vim/vim/" ~/.vim
