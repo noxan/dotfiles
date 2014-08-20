@@ -7,6 +7,9 @@ if [ ! -n "$DOTFILES" ]; then
 fi
 
 
+git clone git@github.com:noxan/dotfiles "~/$DOTFILES"
+
+
 # vim
 ln -s "$DOTFILES/vim/vim/" ~/.vim
 ln -s "$DOTFILES/vim/vimrc" ~/.vimrc
