@@ -16,8 +16,9 @@
     br = branch
     pl = pull
     pff = pull --ff-only
-    ps = push
+    ps = push --follow-tags
     ft = fetch
+    mg = merge --no-ff
     lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
     wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
     unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
