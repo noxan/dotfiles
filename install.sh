@@ -6,8 +6,12 @@ if [ ! -n "$DOTFILES" ]; then
   DOTFILES="$HOME/.dotfiles"
 fi
 
-
-git clone git@github.com:noxan/dotfiles $DOTFILES
+if [ -d "$DOTFILES" ]; then
+  echo "You have already dotfiles already installed. Remove the directory if you want to install it again."
+  exit
+else
+  git clone git@github.com:noxan/dotfiles $DOTFILES
+fi
 
 (cd $DOTFILES && git submodule init)
 (cd $DOTFILES && git submodule update)
