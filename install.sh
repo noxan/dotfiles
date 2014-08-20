@@ -3,11 +3,11 @@
 set -e
 
 if [ ! -n "$DOTFILES" ]; then
-  DOTFILES=~/.dotfiles
+  DOTFILES="$HOME/.dotfiles"
 fi
 
 
-git clone git@github.com:noxan/dotfiles "~/$DOTFILES"
+git clone git@github.com:noxan/dotfiles $DOTFILES
 
 
 # vim
