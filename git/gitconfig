@@ -1,29 +1,29 @@
 [color]
-    status = auto
-    diff = auto
-    merge = auto
-    log = auto
-    commit = auto
+  status = auto
+  diff = auto
+  merge = auto
+  log = auto
+  commit = auto
 [alias]
-    ap = add -p
-    st = status
-    co = checkout
-    ci = commit
-    cim = commit -m
-    cip = commit --dry-run -v
-    cia = commit --amend
-    di = diff
-    br = branch
-    pl = pull
-    pff = pull --ff-only
-    ps = push --follow-tags
-    ft = fetch
-    mg = merge --no-ff
-    lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
-    wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
-    unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
+  ap = add -p
+  st = status
+  co = checkout
+  ci = commit
+  cim = commit -m
+  cip = commit --dry-run -v
+  cia = commit --amend
+  di = diff
+  br = branch
+  pl = pull
+  pff = pull --ff-only
+  ps = push --follow-tags
+  ft = fetch
+  mg = merge --no-ff
+  lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+  wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
+  unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
 [user]
-    name = noxan
-    email = noxan@byteweaver.net
+  name = noxan
+  email = noxan@byteweaver.net
 [push]
 	default = current
