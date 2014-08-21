@@ -12,7 +12,7 @@ uninstallConfig 'vimrc'
 # git
 uninstallConfig 'gitconfig'
 # i3
-uninstallConfig 'i3/'
+uninstallConfig 'i3'
 uninstallConfig 'i3status.conf'
 # Xorg
 uninstallConfig 'xinitrc'
