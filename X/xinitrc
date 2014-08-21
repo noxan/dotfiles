@@ -7,6 +7,8 @@ xmodmap ~/.Xmodmap
 
 xset b off
 
+setxkbmap -option ctrl:nocaps
+
 setxkbmap us
 
 exec ssh-agent /usr/bin/i3
