@@ -8,4 +8,6 @@ A collection of my configuration files.
 
 ## Screenshots
 
+### Terminal
+
 ![Terminal Screenshot](https://raw.githubusercontent.com/wiki/noxan/dotfiles/screenshots/dotfiles-terminal.jpg)
