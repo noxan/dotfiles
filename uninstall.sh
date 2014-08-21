@@ -3,6 +3,9 @@
 function uninstallConfig {
   rm -rf "$HOME/.$1"
 }
+
+# zsh
+uninstallConfig 'zshrc'
 # vim
 uninstallConfig 'vim'
 uninstallConfig 'vimrc'

@@ -25,6 +25,8 @@ function installConfig {
   fi
 }
 
+# zsh
+installConfig 'zsh' 'zshrc'
 # vim
 installConfig 'vim' 'vim/'
 installConfig 'vim' 'vimrc'
