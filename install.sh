@@ -33,3 +33,11 @@ installConfig 'git' 'gitconfig'
 # i3
 installConfig 'i3' 'i3/'
 installConfig 'i3' 'i3status.conf'
+# Xorg
+installConfig 'X' 'xinitrc'
+installConfig 'X' 'Xmodmap'
+installConfig 'X' 'Xresources'
+# python
+installConfig 'python' 'pydistutils.cfg'
+# gtk
+installConfig 'gtk' 'gtkrc-2.0'
