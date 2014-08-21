@@ -26,4 +26,4 @@
   name = noxan
   email = noxan@byteweaver.net
 [push]
-	default = current
+  default = current
