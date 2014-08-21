@@ -17,18 +17,19 @@ fi
 (cd $DOTFILES && git submodule update)
 
 function installConfig {
-  SOURCE="$DOTFILES/$1"
-  TARGET="$HOME/.${1%/}"
+  SOURCE="$DOTFILES/$1/$2"
+  TARGET="$HOME/.${2%/}"
+  echo "$SOURCE -> $TARGET"
   if [ ! -L "$TARGET" ]; then
     ln -s $SOURCE $TARGET
   fi
 }
 
 # vim
-installConfig 'vim/'
-installConfig 'vimrc'
+installConfig 'vim' 'vim/'
+installConfig 'vim' 'vimrc'
 # git
-installConfig 'gitconfig'
+installConfig 'git' 'gitconfig'
 # i3
-installConfig 'i3/'
-installConfig 'i3status.conf'
+installConfig 'i3' 'i3/'
+installConfig 'i3' 'i3status.conf'
