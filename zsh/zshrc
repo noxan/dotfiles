@@ -84,3 +84,4 @@ export EDITOR='vim'
 # Aliases
 alias zshconfig="vim ~/.zshrc"
 alias q='exit'
+alias c='cd'
