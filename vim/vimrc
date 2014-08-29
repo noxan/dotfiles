@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 
 " general
 Bundle 'scrooloose/nerdtree'
+Bundle 'junegunn/goyo.vim'
 
 " python
 Bundle 'klen/rope-vim'
