@@ -117,6 +117,9 @@ noremap   <Right>  <NOP>
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vimrc
 
+" Scroll before we reach the top or bottom when we scroll vertically
+set so=5
+
 " keybindings
 let mapleader = ","
 
