@@ -124,6 +124,8 @@ set so=5
 " keybindings
 let mapleader = ","
 
+nnoremap <Leader>G :Goyo<CR>
+
 nmap <F3> :make %<cr>
 nmap <F4> :w<CR>:make<CR>:cc<CR>
 
