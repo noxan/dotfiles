@@ -13,8 +13,7 @@ else
   git clone git@github.com:noxan/dotfiles $DOTFILES
 fi
 
-(cd $DOTFILES && git submodule init)
-(cd $DOTFILES && git submodule update)
+(cd $DOTFILES && git submodule update --init)
 
 function installConfig {
   SOURCE="$DOTFILES/$1/$2"
