@@ -12,9 +12,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'junegunn/goyo.vim'
 
 " python
-Bundle 'klen/rope-vim'
-Bundle 'kevinw/pyflakes-vim'
-Bundle 'vim-scripts/pep8'
+Bundle 'nvie/vim-flake8'
 
 " python-django
 Bundle 'gerardo/vim-django-support'

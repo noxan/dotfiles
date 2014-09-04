@@ -4,15 +4,6 @@
 [submodule "vim/vim/bundle/nerdtree"]
 	path = vim/vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "vim/vim/bundle/pep8"]
-	path = vim/vim/bundle/pep8
-	url = git://github.com/vim-scripts/pep8
-[submodule "vim/vim/bundle/pyflakes-vim"]
-	path = vim/vim/bundle/pyflakes-vim
-	url = git://github.com/kevinw/pyflakes-vim
-[submodule "vim/vim/bundle/rope-vim"]
-	path = vim/vim/bundle/rope-vim
-	url = git://github.com/klen/rope-vim
 [submodule "vim/vim/bundle/vim-coffee-script"]
 	path = vim/vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script
@@ -40,3 +31,6 @@
 [submodule "vim/vim/bundle/goyo.vim"]
 	path = vim/vim/bundle/goyo.vim
 	url = git@github.com:junegunn/goyo.vim.git
+[submodule "vim/vim/bundle/vim-flake8"]
+	path = vim/vim/bundle/vim-flake8
+	url = git@github.com:nvie/vim-flake8.git
