@@ -6,6 +6,7 @@ call vundle#rc()
 
 " let Vundle manage Vundle, required!
 Bundle 'gmarik/vundle'
+Bundle 'itchyny/lightline.vim'
 
 " general
 Bundle 'scrooloose/nerdtree'

@@ -34,3 +34,6 @@
 [submodule "vim/vim/bundle/vim-flake8"]
 	path = vim/vim/bundle/vim-flake8
 	url = git@github.com:nvie/vim-flake8.git
+[submodule "vim/vim/bundle/lightline.vim"]
+	path = vim/vim/bundle/lightline.vim
+	url = git@github.com:itchyny/lightline.vim.git
