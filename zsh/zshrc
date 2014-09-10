@@ -85,6 +85,7 @@ export EDITOR='vim'
 alias zshconfig="vim ~/.zshrc"
 alias q='exit'
 alias c='cd'
+alias s='cd $HOME/workspace'
 
 # go path
 export GOPATH="$HOME/.gocode"
