@@ -285,9 +285,12 @@ call <SID>X("Todo",			"857b6f",	"",			"none")
 			"Underlined
 			"Error
 			"Ignore
+hi clear SpellBad   " remove red background from spellcheck
+call <SID>X("SpellBad",		"",			"",			"underline")
 
 hi! link VisualNOS	Visual
 hi! link FoldColumn	Folded
+
 
 " delete functions {{{
 delf <SID>X
