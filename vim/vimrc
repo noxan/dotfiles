@@ -125,6 +125,9 @@ let mapleader = ","
 
 nnoremap <Leader>G :Goyo<CR>
 
+nnoremap <Leader>S :setlocal spell spelllang=en_gb<CR>
+nnoremap <Leader>D :setlocal spell spelllang=de_de<CR>
+
 nmap <F3> :make %<cr>
 nmap <F4> :w<CR>:make<CR>:cc<CR>
 
