@@ -15,7 +15,7 @@ fi
 
 (cd $DOTFILES && git submodule update --init)
 
-function installConfig {
+installConfig() {
   SOURCE="$DOTFILES/$1/$2"
   TARGET="$HOME/.${2%/}"
   echo "$SOURCE -> $TARGET"
