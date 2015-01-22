@@ -4,13 +4,12 @@ xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
 xterm*allowBoldFonts: false
+xterm*termName: xterm-256color
 
 Xft.dpi:        96
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
-
-xterm*termName: xterm-256color
 
 Xcursor*theme: Neutral
