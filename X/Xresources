@@ -3,6 +3,7 @@ xterm*faceSize: 14
 xterm*background: black
 xterm*foreground: white
 xterm*boldMode: false
+xterm*allowBoldFonts: false
 
 Xft.dpi:        96
 Xft.antialias:  true
