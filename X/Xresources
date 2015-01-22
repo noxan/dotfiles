@@ -5,6 +5,7 @@ xterm*foreground: white
 xterm*boldMode: false
 xterm*allowBoldFonts: false
 xterm*termName: xterm-256color
+xterm*locale: true
 
 Xft.dpi:        96
 Xft.antialias:  true
