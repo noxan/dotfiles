@@ -1,3 +1,5 @@
+# vim:ft=zsh ts=2 sw=2 sts=2
+
 local ret_status="%(?:%{$fg[green]%}›:%{$fg[red]%}›%s)"
 PROMPT='${ret_status}%{$fg[green]%}%p %{$fg[blue]%}%c %{$reset_color%}'
 
