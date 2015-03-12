@@ -175,8 +175,5 @@ bindsym XF86AudioMute        exec amixer set Master toggle
 # i3lock
 bindsym $mod+Shift+x exec i3lock -c 000000
 
-# switch keyboard layout
-bindsym $mod+x exec $HOME/.dotfiles/helpers/switch-layout.sh
-
 # network manager
 exec nm-applet
