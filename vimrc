@@ -9,3 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 
 call vundle#end()
 filetype plugin indent on
+
+" Encoding
+set encoding=utf8
+set fileformat=unix
