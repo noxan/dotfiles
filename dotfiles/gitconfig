@@ -1,0 +1,22 @@
+[user]
+  name = Richard
+  email = richard@devisio.net
+[alias]
+  cfg = config --global --edit
+  ap = add -p
+  br = branch
+  ca = commit --amend
+  ci = commit
+  cm = commit --message
+  co = checkout
+  cv = commit --dry-run --verbose
+  di = diff
+  ft = fetch
+  lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+  mg = merge --no-ff
+  pl = pull --ff-only
+  ps = push --follow-tags
+  st = status
+  up = !"git pull --rebase --prune $@ && git submodule update --init --recursive"
+  unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
+  wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
