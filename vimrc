@@ -13,3 +13,6 @@ filetype plugin indent on
 " Encoding
 set encoding=utf8
 set fileformat=unix
+
+" Syntax highlight
+syntax on
