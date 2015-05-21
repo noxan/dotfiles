@@ -20,3 +20,5 @@
   up = !"git pull --rebase --prune $@ && git submodule update --init --recursive"
   unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
   wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
+[push]
+  default = simple
