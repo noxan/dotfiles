@@ -7,6 +7,9 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'wavded/vim-stylus'
+Plugin 'digitaltoad/vim-jade'
+
 call vundle#end()
 filetype plugin indent on
 
