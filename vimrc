@@ -10,6 +10,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'wavded/vim-stylus'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'elzr/vim-json'
 
 call vundle#end()
 filetype plugin indent on
