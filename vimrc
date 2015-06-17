@@ -31,3 +31,6 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 autocmd FileType python setl shiftwidth=4 tabstop=4 softtabstop=4 et
+
+" Wipe trailing whitespaces, see http://vim.wikia.com/wiki/Remove_unwanted_spaces#Automatically_removing_all_trailing_whitespace
+autocmd BufWritePre * :%s/\s\+$//e
