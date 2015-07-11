@@ -26,6 +26,9 @@ set fileformat=unix
 " Syntax highlight
 syntax on
 
+" Line numbers
+set number
+
 " Tabs to spaces
 set expandtab
 " Smart tabs
