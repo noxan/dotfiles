@@ -12,6 +12,9 @@ Plugin 'wavded/vim-stylus'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
 Plugin 'mattn/emmet-vim'
+Plugin 'airblade/vim-gitgutter'
+Bundle 'ntpeters/vim-better-whitespace'
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 filetype plugin indent on
