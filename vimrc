@@ -11,6 +11,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'wavded/vim-stylus'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()
 filetype plugin indent on
