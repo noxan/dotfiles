@@ -22,3 +22,5 @@
   wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
 [push]
   default = simple
+[core]
+  editor = /usr/bin/vim
