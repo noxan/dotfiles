@@ -42,6 +42,12 @@ autocmd FileType python setl shiftwidth=4 tabstop=4 softtabstop=4 et
 " Wipe trailing whitespaces, see http://vim.wikia.com/wiki/Remove_unwanted_spaces#Automatically_removing_all_trailing_whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
+
+" File completion
+set wildmenu
+set wildignore+=*.pyc,*.fcgi,*.sock,*.db,*.swp,*.swo,*.meta
+set wildmode=list:longest
+
 " Paste mode
 set pastetoggle=<F2>
 
