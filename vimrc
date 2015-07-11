@@ -38,3 +38,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " Paste mode
 set pastetoggle=<F2>
+
+" allow backspacing over everything in insert mode
+" http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line
+"set backspace=indent,eol,start
