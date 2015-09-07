@@ -49,6 +49,9 @@ set wildmenu
 set wildignore+=*.pyc,*.fcgi,*.sock,*.db,*.swp,*.swo,*.meta
 set wildmode=list:longest
 
+" Highlight search results
+set hlsearch
+
 " Paste mode
 set pastetoggle=<F2>
 
