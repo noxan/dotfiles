@@ -1,6 +1,6 @@
 [user]
   name = Richard
-  email = richard@devisio.net
+  email = hello@noxan.net
 [alias]
   cfg = config --global --edit
   ap = add -p
