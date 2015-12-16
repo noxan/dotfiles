@@ -16,9 +16,9 @@ Plugin 'mattn/emmet-vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'nvie/vim-flake8'
 
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()
 filetype plugin indent on
@@ -71,12 +71,15 @@ set pastetoggle=<F2>
 " http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line
 set backspace=indent,eol,start
 
-" flake8, https://github.com/nvie/vim-flake8
-autocmd BufWritePost *.py call Flake8()
-let g:flake8_quickfix_location="topleft"
-let g:flake8_show_quickfix=1
-let g:flake8_show_in_file=1
-let g:flake8_show_in_gutter=0
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Airline
 let g:airline_left_sep=''  " Slightly fancier than '>'
