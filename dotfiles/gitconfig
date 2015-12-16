@@ -20,8 +20,8 @@
   up = !"git pull --rebase --prune $@ && git submodule update --init --recursive"
   unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
   wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
-  cc = !"git branch --merged | grep -v \"\\*\" | grep -v master | grep -v develop | xargs -n 1 git branch -d"
-  cr = !"git branch --remote --merged | grep -v master | grep -v develop | sed 's/origin\\///' | xargs -n 1 git push --delete origin"
+  cleanup-local = !"git branch --merged | grep -v \"\\*\" | grep -v master | grep -v develop | xargs -n 1 git branch -d"
+  cleanup-remote = !"git branch --remote --merged | grep -v master | grep -v develop | sed 's/origin\\///' | xargs -n 1 git push --delete origin"
 [push]
   default = simple
 [core]
