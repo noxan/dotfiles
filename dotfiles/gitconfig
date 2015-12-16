@@ -24,6 +24,7 @@
   bmr = branch --remote --merged
   cleanup-local = !"git branch --merged | grep -v \"\\*\" | grep -v master | grep -v develop | xargs -n 1 git branch -d"
   cleanup-remote = !"git branch --remote --merged | grep -v master | grep -v develop | sed 's/origin\\///' | xargs -n 1 git push --delete origin"
+  release = !"git tag -a -m \"Release ${1}\" ${1}"
 [push]
   default = simple
 [core]
