@@ -20,6 +20,9 @@ Plugin 'nvie/vim-flake8'
 call vundle#end()
 filetype plugin indent on
 
+" GUI
+set guifont=Fantasque\ Sans\ Mono\ Regular:h13
+
 " Encoding
 set encoding=utf8
 set fileformat=unix
