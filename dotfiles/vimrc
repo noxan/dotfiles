@@ -14,7 +14,6 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
 Plugin 'mattn/emmet-vim'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'editorconfig/editorconfig-vim'
 
 Plugin 'bling/vim-airline'
@@ -41,6 +40,11 @@ syntax on
 
 " Line numbers
 set number
+
+" Handle whitespaces
+set list
+set listchars=tab:»\ " whitespace
+" set listchars=eol:¬,tab:»·,trail:~,extends:>,precedes:<,space:␣
 
 " Tabs to spaces
 set expandtab
