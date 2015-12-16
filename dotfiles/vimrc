@@ -7,9 +7,6 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'flazz/vim-colorschemes'
-Plugin 'mkarmona/colorsbox'
-Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'w0ng/vim-hybrid'
 
 Plugin 'wavded/vim-stylus'
