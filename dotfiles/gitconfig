@@ -27,5 +27,6 @@
   release = !"git tag -a -m \"Release ${1}\" ${1}"
 [push]
   default = simple
+  followTags = true
 [core]
   editor = /usr/bin/vim
