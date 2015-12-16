@@ -8,6 +8,9 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'flazz/vim-colorschemes'
+Plugin 'mkarmona/colorsbox'
+Plugin 'NLKNguyen/papercolor-theme'
+
 Plugin 'wavded/vim-stylus'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
