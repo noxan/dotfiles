@@ -24,8 +24,6 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
 Plugin 'mattn/emmet-vim'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'editorconfig/editorconfig-vim'
-
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 
@@ -94,6 +92,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+Plugin 'editorconfig/editorconfig-vim'
+" editorconfig
+let g:EditorConfig_core_mode = 'external_command'
 
 " Airline
 let g:airline_left_sep=''  " Slightly fancier than '>'
