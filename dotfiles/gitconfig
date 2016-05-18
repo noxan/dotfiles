@@ -27,7 +27,7 @@
   cleanup-remote = !"git branch --remote --merged | grep -v master | grep -v develop | sed 's/origin\\///' | xargs -n 1 git push --delete origin"
   release = !"git commit -m \"Release ${1}\"; git tag -a -m \"Release ${1}\""
 [push]
-  default = simple
+  default = current
   followTags = true
 [core]
   editor = /usr/bin/vim
