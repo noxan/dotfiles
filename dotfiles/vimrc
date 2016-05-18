@@ -112,6 +112,9 @@ endif
 set showmode " Show current mode
 set showcmd " Show partial commands in status bar
 
+" Highlight cursorline
+set cursorline
+
 " Nerdtree
 map <C-n> :NERDTreeToggle<CR>
 
