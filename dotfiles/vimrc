@@ -59,6 +59,9 @@ syntax on
 " Leader key
 let mapleader=","
 
+" Fix line numbers to be readable
+highlight LineNr ctermfg=241
+
 " Line numbers
 set number
 
