@@ -45,6 +45,9 @@ scriptencoding utf-8
 set encoding=utf8
 set fileformat=unix
 
+" Performance
+" set lazyredraw
+
 " Syntax highlight
 syntax on
 
