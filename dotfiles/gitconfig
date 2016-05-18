@@ -9,6 +9,7 @@
   ci = commit
   cm = commit --message
   co = checkout
+  cl = clone
   cv = commit --dry-run --verbose
   di = diff
   ft = fetch
