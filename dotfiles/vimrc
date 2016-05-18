@@ -26,6 +26,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'airblade/vim-gitgutter'
 "Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'bling/vim-airline'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'ctrlpvim/ctrlp.vim'
 
