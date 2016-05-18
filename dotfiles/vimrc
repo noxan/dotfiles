@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'w0ng/vim-hybrid'
+Plugin 'vim-scripts/last256'
 
 Plugin 'wavded/vim-stylus'
 Plugin 'digitaltoad/vim-jade'
