@@ -56,6 +56,9 @@ set fileformat=unix
 " Syntax highlight
 syntax on
 
+" Leader key
+let mapleader=","
+
 " Line numbers
 set number
 
