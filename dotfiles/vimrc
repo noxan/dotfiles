@@ -26,6 +26,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -105,6 +106,9 @@ let g:EditorConfig_core_mode = 'external_command'
 " Airline
 let g:airline_left_sep=''  " Slightly fancier than '>'
 let g:airline_right_sep='' " Slightly fancier than '<'
+
+" Ctrlp
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " Indent line
 let g:indentLine_char = '¦'
