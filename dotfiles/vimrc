@@ -10,6 +10,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'vim-scripts/last256'
 
+Plugin 'othree/html5.vim'
+Plugin 'othree/yajs.vim'
+
 Plugin 'wavded/vim-stylus'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
