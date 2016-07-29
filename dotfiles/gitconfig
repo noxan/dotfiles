@@ -30,4 +30,4 @@
   default = current
   followTags = true
 [core]
-  editor = /usr/bin/vim
+  editor = $EDITOR
