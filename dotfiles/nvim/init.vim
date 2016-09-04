@@ -21,11 +21,15 @@ Plug 'scrooloose/syntastic'
 
 call plug#end()
 
+" Color scheme
+if (has("termguicolors"))
+  set termguicolors
+endif
+
 " Syntax enabled
 syntax enable
 
-" Color scheme
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+" Color scheme, part 2
 colorscheme OceanicNext
 set background=dark
 
