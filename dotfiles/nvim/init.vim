@@ -90,3 +90,6 @@ let g:syntastic_typescript_tsc_fname = ''
 
 " Maintain undo history between sessions
 set undofile
+
+" Transparent background
+highlight Normal ctermbg=none guibg=none
