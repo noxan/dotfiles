@@ -21,6 +21,10 @@ Plug 'scrooloose/syntastic'
 " Handlebars
 Plug 'joukevandermaas/vim-ember-hbs', { 'for': 'handlebars' }
 " Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
+" Elm
+Plug 'lambdatoast/elm.vim'
+" Jade / Pug
+Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 
