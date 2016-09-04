@@ -2,7 +2,10 @@
 call plug#begin('~/.vim/plugged')
 
 " Better js hightlight
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' } " 'branch': 'develop',
+" Plug 'pangloss/vim-javascript', { 'for': 'javascript' } " 'branch': 'develop',
+Plug 'othree/yajs.vim', { 'for': 'javascript' }
+Plug 'mxw/vim-jsx'
+Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
 " Oceanic next color scheme
 Plug 'mhartington/oceanic-next'
 " Ctrl-P to find files like in sublime
