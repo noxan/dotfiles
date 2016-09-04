@@ -86,3 +86,4 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_typescript_checkers = ['tsc', 'tslint']
 let g:syntastic_typescript_tslint_exec = './node_modules/.bin/tslint'
+let g:syntastic_typescript_tsc_fname = ''
