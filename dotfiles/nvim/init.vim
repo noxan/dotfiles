@@ -18,6 +18,9 @@ Plug 'wavded/vim-stylus', { 'for': 'stylus' }
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 " Syntax checker
 Plug 'scrooloose/syntastic'
+" Handlebars
+Plug 'joukevandermaas/vim-ember-hbs', { 'for': 'handlebars' }
+" Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 
 call plug#end()
 
