@@ -1,3 +1,6 @@
 [submodule "dotfiles/vim/bundle/vundle"]
 path = dotfiles/vim/bundle/Vundle.vim
 url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "dotfiles/zsh/zsh-autosuggestions"]
+	path = dotfiles/zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
