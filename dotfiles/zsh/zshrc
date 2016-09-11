@@ -33,3 +33,8 @@ alias ll='ls -lFH'
 
 # Completion
 zstyle ':completion:*' menu select
+
+# History
+setopt append_history
+setopt share_history
+setopt extended_history
