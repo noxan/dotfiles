@@ -3,8 +3,9 @@ autoload -Uz colors && colors
 PROMPT="%{$fg_no_bold[yellow]%}%~ %{$reset_color%}%# "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
-# Autosuggestions (like fish)
-source ~/.dotfiles/dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Directory colors
+export CLICOLOR=1
+export LS_COLORS=exfxcxdxbxegedabagacad
 
 # Editor
 export EDITOR=nvim
