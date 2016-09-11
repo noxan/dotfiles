@@ -30,3 +30,6 @@ alias gitconfig='$EDITOR ~/.gitconfig'
 # Better ls
 alias ls='ls -FH'
 alias ll='ls -lFH'
+
+# Completion
+zstyle ':completion:*' menu select
