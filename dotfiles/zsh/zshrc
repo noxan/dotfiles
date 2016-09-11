@@ -41,3 +41,6 @@ setopt extended_history
 
 # Beep
 setopt nobeep
+
+# Z
+source `brew --prefix`/etc/profile.d/z.sh
