@@ -17,6 +17,8 @@ Plug 'bling/vim-airline'
 Plug 'wavded/vim-stylus', { 'for': 'stylus' }
 " Typescript syntax
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+" Git
+Plug 'airblade/vim-gitgutter'
 " Syntax checker
 Plug 'scrooloose/syntastic'
 " Handlebars
