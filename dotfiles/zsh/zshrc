@@ -26,3 +26,7 @@ bindkey '^N' history-search-forward
 # Config alias
 alias zshconfig='$EDITOR ~/.zshrc'
 alias gitconfig='$EDITOR ~/.gitconfig'
+
+# Better ls
+alias ls='ls -FH'
+alias ll='ls -lFH'
