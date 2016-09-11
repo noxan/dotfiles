@@ -44,3 +44,9 @@ setopt nobeep
 
 # Z
 source `brew --prefix`/etc/profile.d/z.sh
+
+# Autosuggestions (like fish)
+# export ZSH_AUTOSUGGEST_STRATEGY='match_prev_cmd'
+# source ~/.dotfiles/dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Syntax highlight (like fish)
+source ~/.dotfiles/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
