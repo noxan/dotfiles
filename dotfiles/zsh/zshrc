@@ -23,6 +23,10 @@ bindkey '^S' history-incremental-search-forward
 bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward
 
+# keybinds
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
+
 # Config alias
 alias zshconfig='$EDITOR ~/.zshrc'
 alias gitconfig='$EDITOR ~/.gitconfig'
