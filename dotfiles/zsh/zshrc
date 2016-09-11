@@ -38,3 +38,6 @@ zstyle ':completion:*' menu select
 setopt append_history
 setopt share_history
 setopt extended_history
+
+# Beep
+setopt nobeep
