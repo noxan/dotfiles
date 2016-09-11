@@ -1,3 +1,5 @@
+autoload -Uz colors && colors
+
 PROMPT="%{$fg_no_bold[yellow]%}%~ %{$reset_color%}%# "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
