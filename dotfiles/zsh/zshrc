@@ -9,6 +9,7 @@ export LS_COLORS=exfxcxdxbxegedabagacad
 
 # Editor
 export EDITOR=nvim
+export VISUAL=nvim
 
 # Alias
 alias vim=nvim
