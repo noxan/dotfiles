@@ -47,6 +47,9 @@ alias gitconfig='$EDITOR ~/.gitconfig'
 alias ls='ls -FH'
 alias ll='ls -lFH'
 
+# Egrep find
+f () { egrep -r --color -nr $@; }
+
 # Completion
 zstyle ':completion:*' menu select
 
