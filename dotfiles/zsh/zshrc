@@ -9,7 +9,7 @@ setopt prompt_subst
 zstyle ':vcs_info:git:*' formats '%b'
 
 PROMPT="%{$fg_no_bold[yellow]%}%~ %{$reset_color%}%# "
-RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
+RPROMPT="%{$fg[magenta]%}\$vcs_info_msg_0_%{$reset_color%} [%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 # Directory colors
 export CLICOLOR=1
