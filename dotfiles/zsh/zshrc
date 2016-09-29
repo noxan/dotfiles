@@ -15,6 +15,9 @@ RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 export CLICOLOR=1
 export LS_COLORS=exfxcxdxbxegedabagacad
 
+# Autocompletion
+autoload -Uz compinit && compinit
+
 # Editor
 export EDITOR=nvim
 export VISUAL=nvim
