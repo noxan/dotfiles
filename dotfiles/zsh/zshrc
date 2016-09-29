@@ -37,6 +37,7 @@ bindkey '^N' history-search-forward
 # keybinds
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
+bindkey '^[[3~' delete-char
 
 # Config alias
 alias zshconfig='$EDITOR ~/.zshrc'
