@@ -50,6 +50,9 @@ alias ll='ls -lFH'
 # Egrep find
 f () { egrep -r --color -nr $@; }
 
+# Alias
+alias s='cd $HOME/workspace'
+
 # Completion
 zstyle ':completion:*' menu select
 
