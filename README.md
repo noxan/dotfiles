@@ -1,5 +1,7 @@
 # dotfiles, v2
 
+    https://raw.githubusercontent.com/noxan/dotfiles/master/install.sh
+
 ## Setup
 
 Link dotfiles as you need them to your home directory.
