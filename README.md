@@ -1,6 +1,6 @@
 # dotfiles, v2
 
-    https://raw.githubusercontent.com/noxan/dotfiles/master/install.sh
+    curl -L https://raw.githubusercontent.com/noxan/dotfiles/master/install.sh | bash
 
 ## Setup
 
