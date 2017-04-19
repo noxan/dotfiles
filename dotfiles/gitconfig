@@ -18,7 +18,8 @@
   pl = pull --ff-only
   ps = push --follow-tags
   st = status
-  up = !"git pull --rebase --prune $@ && git submodule update --init --recursive"
+  old-up = !"git pull --rebase --prune $@ && git submodule update --init --recursive"
+  up = pull --ff-only --prune
   unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
   wip = !"git add -A; git ls-files --deleted -z | xargs -0 --no-run-if-empty git rm; git commit -m \"wip\""
   bm = branch --merged
