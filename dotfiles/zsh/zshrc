@@ -1,19 +1,9 @@
-autoload -Uz colors && colors
-
-# Git info
-autoload -Uz vcs_info
-precmd_vcs_info() { vcs_info }
-precmd_functions+=( precmd_vcs_info )
-
-setopt prompt_subst
-zstyle ':vcs_info:git:*' formats '%b'
-
-PROMPT="%{$fg_no_bold[yellow]%}%~ %{$reset_color%}%# "
-RPROMPT="%{$fg[magenta]%}\$vcs_info_msg_0_%{$reset_color%} [%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
+autoload -U promptinit; promptinit
+prompt pure
 
 # Directory colors
-export CLICOLOR=1
-export LS_COLORS=exfxcxdxbxegedabagacad
+# export CLICOLOR=1
+# export LS_COLORS=exfxcxdxbxegedabagacad
 
 # Autocompletion
 autoload -Uz compinit && compinit
@@ -42,6 +32,7 @@ bindkey '^[[3~' delete-char
 # Config alias
 alias zshconfig='$EDITOR ~/.zshrc'
 alias gitconfig='$EDITOR ~/.gitconfig'
+alias vimconfig='$EDITOR ~/.config/nvim/init.vim'
 
 # Better ls
 alias ls='ls -FH'
@@ -70,7 +61,7 @@ setopt inc_append_history
 setopt share_history # share command history data
 
 # Beep
-setopt nobeep
+# setopt nobeep
 
 # Z
 source `brew --prefix`/etc/profile.d/z.sh
@@ -79,4 +70,37 @@ source `brew --prefix`/etc/profile.d/z.sh
 # export ZSH_AUTOSUGGEST_STRATEGY='match_prev_cmd'
 # source ~/.dotfiles/dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Syntax highlight (like fish)
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=magenta'
 source ~/.dotfiles/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Pyenv
+# export PYENV_ROOT=/usr/local/var/pyenv
+# if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+# Postgres bin path
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
+
+# Golang
+export GOPATH="$HOME/.go/"
+
+# Locale
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# Base 16 colors
+# BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-default-dark.sh"
+# [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
+
+# Get ip alias
+alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
+
+# Yarn / Node binaries
+# export PATH="$PATH:`yarn global bin`"
+
+alias g=git
