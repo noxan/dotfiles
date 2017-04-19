@@ -7,8 +7,17 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] } " 'b
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 " Plug 'gavocanov/vim-js-indent'
 " Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
+"
+" Plug 'sheerun/vim-polyglot'
+
+Plug 'rust-lang/rust.vim'
+
 " Oceanic next color scheme
 Plug 'mhartington/oceanic-next'
+" Base 16
+" Plug 'chriskempson/base16-vim'
+
+
 " Ctrl-P to find files like in sublime
 Plug 'kien/ctrlp.vim'
 " Airline, the better status line
@@ -20,7 +29,8 @@ Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 " Git
 Plug 'airblade/vim-gitgutter'
 " Syntax checker
-Plug 'scrooloose/syntastic'
+Plug 'neomake/neomake'
+" Plug 'benjie/neomake-local-eslint.vim'
 " Handlebars
 Plug 'joukevandermaas/vim-ember-hbs', { 'for': 'handlebars' }
 " Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
@@ -31,17 +41,19 @@ Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 
+let g:jsx_ext_required = 0
+
 " Color scheme
+"let base16colorspace=256
+"colorscheme base16-default-light
 if (has("termguicolors"))
   set termguicolors
 endif
+colorscheme OceanicNext
+set background=dark
 
 " Syntax enabled
 syntax enable
-
-" Color scheme, part 2
-colorscheme OceanicNext
-set background=dark
 
 " Line numbers (on the left side)
 set number
@@ -85,21 +97,19 @@ let g:airline_theme='oceanicnext'
 " http://vim.wikia.com/wiki/Remove_unwanted_spaces<Paste>
 autocmd BufWritePre * :%s/\s\+$//e
 
-" Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_typescript_checkers = ['tsc', 'tslint']
-let g:syntastic_typescript_tslint_exec = './node_modules/.bin/tslint'
-let g:syntastic_typescript_tsc_fname = ''
+" Neomake
+autocmd! BufWritePost * Neomake
+" let g:neomake_verbose=3
+let g:neomake_open_list=2
+let g:neomake_javascript_enabled_makers = ['eslint']
+let g:neomake_javascript_eslint_exe = $PWD .'/node_modules/.bin/eslint'
+let g:neomake_jsx_enabled_makers = ['eslint']
 
 " Maintain undo history between sessions
 set undofile
 
 " Transparent background
 highlight Normal ctermbg=none guibg=none
+
+" Paste mode
+set pastetoggle=<F3>
