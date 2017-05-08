@@ -3,6 +3,7 @@
   email = hello@noxan.net
 [alias]
   cfg = config --global --edit
+  a = add
   ap = add -p
   br = branch
   ca = commit --amend
@@ -18,6 +19,7 @@
   pl = pull --ff-only
   ps = push --follow-tags
   st = status
+  s = status
   old-up = !"git pull --rebase --prune $@ && git submodule update --init --recursive"
   up = pull --ff-only --prune
   unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
