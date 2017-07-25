@@ -13,9 +13,11 @@ Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'rust-lang/rust.vim'
 
 " Oceanic next color scheme
-Plug 'mhartington/oceanic-next'
+" Plug 'mhartington/oceanic-next'
 " Base 16
 " Plug 'chriskempson/base16-vim'
+" Nord
+Plug 'arcticicestudio/nord-vim'
 
 
 " Ctrl-P to find files like in sublime
@@ -49,7 +51,7 @@ let g:jsx_ext_required = 0
 if (has("termguicolors"))
   set termguicolors
 endif
-colorscheme OceanicNext
+colorscheme nord
 set background=dark
 
 " Syntax enabled
@@ -91,7 +93,7 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " Airline
 let g:airline_left_sep=''  " Slightly fancier than '>'
 let g:airline_right_sep='' " Slightly fancier than '<'
-let g:airline_theme='oceanicnext'
+let g:airline_theme='nord'
 
 " Auto remove trailing whitespaces on save
 " http://vim.wikia.com/wiki/Remove_unwanted_spaces<Paste>
