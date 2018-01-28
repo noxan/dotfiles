@@ -2,6 +2,8 @@ set fish_greeting ""
 
 set pure_symbol_prompt "\$"
 
+export LC_ALL=en_US.UTF-8
+
 # Base16 Shell
 # if status --is-interactive
 #   eval sh $HOME/.config/base16-shell/scripts/base16-oceanicnext.sh
