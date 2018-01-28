@@ -22,7 +22,6 @@ abbr -a g "git"
 
 export PATH="$HOME/workspace/flutter/bin:$PATH"
 
-# echo $PATH
 
 # Android
 # export ANDROID_HOME="$HOME/Library/Android/sdk"
