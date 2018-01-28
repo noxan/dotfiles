@@ -20,8 +20,8 @@ abbr -a g "git"
 
 # abbr -a code "code-insiders"
 
-export PATH="$HOME/workspace/flutter/bin:$PATH"
-
+# Flutter
+# export PATH="$HOME/workspace/flutter/bin:$PATH"
 
 # Android
 # export ANDROID_HOME="$HOME/Library/Android/sdk"
