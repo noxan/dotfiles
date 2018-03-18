@@ -2,6 +2,7 @@ set fish_greeting ""
 
 set pure_symbol_prompt "\$"
 
+export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # Base16 Shell
