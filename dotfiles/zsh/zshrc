@@ -1,9 +1,12 @@
+# Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
-prompt pure
+prompt spaceship
 
-# Directory colors
-# export CLICOLOR=1
-# export LS_COLORS=exfxcxdxbxegedabagacad
+SPACESHIP_CHAR_SYMBOL="$ "
+
+alias s="cd $HOME/workspace"
+
+export PATH="$PATH:/usr/local/bin"
 
 # Autocompletion
 autoload -Uz compinit && compinit
@@ -11,8 +14,6 @@ autoload -Uz compinit && compinit
 # Editor
 export EDITOR=nvim
 export VISUAL=nvim
-
-# Alias
 alias vim=nvim
 
 # emacs style keybinds
@@ -60,47 +61,19 @@ setopt hist_verify
 setopt inc_append_history
 setopt share_history # share command history data
 
-# Beep
-# setopt nobeep
-
-# Z
-source `brew --prefix`/etc/profile.d/z.sh
-
-# Autosuggestions (like fish)
-# export ZSH_AUTOSUGGEST_STRATEGY='match_prev_cmd'
-# source ~/.dotfiles/dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-# Syntax highlight (like fish)
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-typeset -A ZSH_HIGHLIGHT_STYLES
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=magenta'
-source ~/.dotfiles/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# Pyenv
-# export PYENV_ROOT=/usr/local/var/pyenv
-# if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-
-# Postgres bin path
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
-
-# Golang
-export GOPATH="$HOME/.go/"
-
 # Locale
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# Base 16 colors
-# BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-default-dark.sh"
-# [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
-
 # Get ip alias
 alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
 
-# Yarn / Node binaries
-# export PATH="$PATH:`yarn global bin`"
-
+# Git
 alias g=git
+
+# ALT + ARROW
+# https://stackoverflow.com/questions/12382499/looking-for-altleftarrowkey-solution-in-zsh
+bindkey '[C' forward-word
+bindkey '[D' backward-word
+
+export PIPENV_VENV_IN_PROJECT=1
