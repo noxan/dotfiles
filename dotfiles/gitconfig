@@ -1,6 +1,6 @@
 [user]
   name = Richard
-  email = hello@noxan.net
+  email = richard@stromer.org
 [alias]
   cfg = config --global --edit
   a = add
