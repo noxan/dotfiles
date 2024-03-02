@@ -5,4 +5,5 @@ return {
   window_decorations = 'RESIZE',
   font = wezterm.font('JetBrains Mono'),
   font_size = 13.0,
+  window_background_opacity = 0.9
 }
