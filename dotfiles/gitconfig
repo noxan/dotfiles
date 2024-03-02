@@ -1,6 +1,7 @@
 [user]
   name = Richard
   email = richard@stromer.org
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM8tfYDT9ECgnZQhax2eF6T22RsZbB22QfBWTAR4AuN+
 [alias]
   cfg = config --global --edit
   a = add
