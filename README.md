@@ -1,4 +1,4 @@
-# dotfiles, v2
+# dotfiles, v3
 
     curl -L https://raw.githubusercontent.com/noxan/dotfiles/master/install.sh | bash
 
